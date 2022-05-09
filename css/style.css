@@ -118,31 +118,23 @@ header {
 
 /* Main Quotes */
 .main-quote {
-  padding: 20px 80px;
+  padding: 60px 320px;
   background-color: #e5e7eb;
-  /* Should use height here? */
-  height: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
 
 .main-quote > .quote {
-  /* Should use max-width here? */
-  max-width: 1000px;
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
 }
 
 .main-quote > .cite {
-  position: absolute;
-  font-size: 24px;
   font-weight: bold;
-  bottom: 50px;
-  right: 264px;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: 40px;
 }
 
 /* Main Register */
